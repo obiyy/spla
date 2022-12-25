@@ -1,0 +1,227 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+  <meta charset="UTF-8">
+  <title>お手軽スプラトゥーン自己紹介カードメーカー</title> 
+  	<meta content="お手軽スプラトゥーン自己紹介カードメーカー" name="title">
+    <meta content="入力してダウンロードするだけお手軽スプラ自己紹介カードメーカー" name="description">
+    <meta content="スプラ,スプラトゥーン,自己紹介カード,自己紹介カードメーカー" name="keywords">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@obiyy">
+	<meta property="og:title" content="お手軽スプラ自己紹介カードメーカー">
+	<meta property="og:type" content="blog">
+	<meta property="og:url" content="https://obiyy-spla.netlify.app">
+	<meta property="og:image" content="https://obiyy-spla.netlify.app/card1.jpg">
+	<meta property="og:description" content="入力してダウンロードするだけお手軽スプラ自己紹介カードメーカー">
+
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css">
+  <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+  <script src="./card.js"></script>
+  <script data-ad-client="ca-pub-3840312371391662" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+<style>
+@font-face {
+    font-family: 'ikafont';
+    src: url('/font/ikamodoki.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'paintball';
+    src: url('/font/paintball.ttf') format('truetype');
+}
+.ikafont {
+    font-family: 'ikamodoki','paintball';
+}
+</style>
+  <div data-role="page" data-theme="a">
+    <div data-role="header">
+      <h1>お手軽スプラトゥーン自己紹介カードメーカー</h1>
+    </div>
+    <div data-role="content">
+    	入力してダウンロードするだけお手軽スプラ自己紹介カードメーカー<br /><br />
+		製作者は「<a href="https://twitter.com/obiyy" target="_blank">オビー</a>」です。フォローしてもらえたら嬉しいです。<br />
+		※chrome,safariで動作します。
+		<br />背景の提供は「<a href="https://twitter.com/sukeakurou002" target="_blank">すけあ@PM™おふざけ</a>」さんです。
+		<br /><br />スプラトゥーンのステージ情報などを返すLINEbotも製作しています。よかったら友達追加お願いします！<br />
+		<a href="https://line.me/R/ti/p/%40dpt7573r" target="_blank">友達追加する</a><br />
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- スプラマニア記事 -->
+		<ins class="adsbygoogle"
+		     style="display:block"
+		     data-ad-client="ca-pub-3840312371391662"
+		     data-ad-slot="8376843469"
+		     data-ad-format="auto"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		<hr>
+		<table style="width:100%; font-family: 'ikafont','paintball';">
+			<tr>
+				<td>ナマエ：</td>
+				<td><input type="text" class="_js_name" maxlength="15" value=""></td>
+			</tr>
+			<tr>
+				<td>セイベツ：</td>
+				<td>
+					<fieldset data-role="controlgroup" data-type="horizontal">
+					<input type="radio" id="man" name="seibetu" class="_js_seibetu" value="♂">
+					<label for="man">♂</label>
+					<input type="radio" id="woman" name="seibetu" class="_js_seibetu" value="♀">
+					<label for="woman">♀</label>
+					<input type="radio"  id="humei" name="seibetu" class="_js_seibetu" value="">
+					<label for="humei">?</label>
+					</fieldset>
+				</td>
+			</tr>
+			<tr>
+				<td>ランク：</td>
+				<td><input type="text" class="_js_rank" maxlength="3" value=""></td>
+			</tr>
+			<tr>
+				<td>ウデマエ：</td>
+				<td>
+				<fieldset data-role="controlgroup" data-type="horizontal">
+					<select class="_js_udemae_area">
+						<option value="ー">エリア</option>
+						<option value="X">X</option>
+						<option value="S+">S+</option>
+						<option value="S">S</option>
+						<option value="A+">A+</option>
+						<option value="A">A</option>
+						<option value="A-">A-</option>
+						<option value="B+">B+</option>
+						<option value="B">B</option>
+						<option value="B-">B-</option>
+						<option value="C+">C+</option>
+						<option value="C">C</option>
+						<option value="C-">C-</option>
+					</select>
+					<select class="_js_udemae_hoko">
+						<option value="ー">ホコ</option>
+						<option value="X">X</option>
+						<option value="S+">S+</option>
+						<option value="S">S</option>
+						<option value="A+">A+</option>
+						<option value="A">A</option>
+						<option value="A-">A-</option>
+						<option value="B+">B+</option>
+						<option value="B">B</option>
+						<option value="B-">B-</option>
+						<option value="C+">C+</option>
+						<option value="C">C</option>
+						<option value="C-">C-</option>
+					</select>
+					<select class="_js_udemae_yagura">
+						<option value="ー">ヤグラ</option>
+						<option value="X">X</option>
+						<option value="S+">S+</option>
+						<option value="S">S</option>
+						<option value="A+">A+</option>
+						<option value="A">A</option>
+						<option value="A-">A-</option>
+						<option value="B+">B+</option>
+						<option value="B">B</option>
+						<option value="B-">B-</option>
+						<option value="C+">C+</option>
+						<option value="C">C</option>
+						<option value="C-">C-</option>
+					</select>
+					<select class="_js_udemae_asari">
+						<option value="ー">アサリ</option>
+						<option value="X">X</option>
+						<option value="S+">S+</option>
+						<option value="S">S</option>
+						<option value="A+">A+</option>
+						<option value="A">A</option>
+						<option value="A-">A-</option>
+						<option value="B+">B+</option>
+						<option value="B">B</option>
+						<option value="B-">B-</option>
+						<option value="C+">C+</option>
+						<option value="C">C</option>
+						<option value="C-">C-</option>
+					</select>					
+				</fieldset>
+				</td>
+			</tr>
+		    <tr>
+				<td>チーム：</td>
+				<td><input type="text" class="_js_team" maxlength="10" value=""></td>
+			</tr>
+			<tr>
+				<td>ブキ：</td>
+				<td><input type="text" class="_js_buki" maxlength="40" value=""></td>
+			</tr>
+			<tr>
+				<td>ジカンタイ：</td>
+				<td><input type="text" class="_js_time" maxlength="20" value=""></td>
+			</tr>
+			<tr>
+				<td>フレコ：</td>
+				<td><input type="text" class="_js_friend_code" maxlength="14" value=""></td>
+			</tr>
+			<tr>
+				<td>ツウワ：</td>
+				<td><input type="text" class="_js_talk" maxlength="20" value=""></td>
+			</tr>
+			<tr>
+				<td>ヒトコト：</td>
+				<td><textarea class="_js_hitokoto" maxlength="96"></textarea></td>
+			</tr>
+			<tr>
+				<td>背景：</td>
+				<td style="width:50%;">
+				<img src="./card1.jpg" style="width:50%;" title="お手軽自己紹介カードメーカー" >
+				<input type="radio" checked="checked" name="card" id="card1_img" value="card1.jpg" class="_js_card_img" />
+				<label for="card1_img">テンタクルズ（カラー）</label>
+				<hr />
+
+				<img src="./card2.jpg" style="width:50%;" title="お手軽自己紹介カードメーカー" >
+				<input type="radio" name="card" id="card2_img" value="card2.jpg" class="_js_card_img">
+				<label for="card2_img">テンタクルズ（モノクロ）</label>
+
+<!--
+				<hr />
+
+				<img src="./card.jpg" style="width:50%;" title="お手軽自己紹介カードメーカー"  >
+				<input type="radio" name="card" id="card_img" value="card.jpg" class="_js_card_img"/>
+				<label for="card_img">サーモンラン</label>
+-->
+				</td>
+			</tr>
+		</table>
+		<div style="text-align:center;">
+			<button data-inline="true" value="カード作成" onclick="MkCard();"></button>
+			<img class="_js_none_img" src="./card1.jpg" style="display:none;width:85%;"/>
+		</div>
+	</div>
+    <div data-role="footer">
+      <h4><small><a href="javascript:;" onclick="location.href='https://obiyy-spla.netlify.app/'">自己紹介カードメーカー</a></small></h4>
+    </div>
+  </div>
+	<div data-role="page" id="popup">
+		<div data-role="header">
+			<h1>スプラ自己紹介カード作成</h1>
+		</div>
+		<div data-role="content">
+			<button data-inline="true" value="ダウンロード" onclick="saveImage();" ></button>
+			<canvas id="srcImg" >
+        	<img id="dstImg" src="" />
+		</div>
+    		<div data-role="footer">
+    			<h4><small>スプラマニア</small></h4>
+    		</div>
+	</div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109275858-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109275858-1');
+</script>
+</body>
+</html>
